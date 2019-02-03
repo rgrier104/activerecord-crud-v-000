@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_02_03_013643) do
 
-  create_table "moves", force: :cascade do |t|
+  create_table "movies", force: :cascade do |t|
     t.string "title"
     t.integer "release_date"
     t.string "director"
